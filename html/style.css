@@ -28,6 +28,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	background: transparent;
 	list-style-type: none;
 }
+
 @import url('css/normalize.min.css');
 
 html {
@@ -38,6 +39,10 @@ html {
     padding: 5px 0;
     background: #ccc;
     color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
 }
 body {
   width: 100%;
