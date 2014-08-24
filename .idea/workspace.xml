@@ -264,7 +264,11 @@
       <created>1408906065007</created>
       <updated>1408906065007</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test sass">
+      <created>1408906176010</created>
+      <updated>1408906176010</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -289,7 +293,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="24" width="1879" height="998" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32756633" sideWeight="0.49945712" order="7" side_tool="false" content_ui="tabs" />
