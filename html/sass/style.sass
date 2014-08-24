@@ -1,7 +1,12 @@
+/* This comment is
+ * several lines long.
+ * since it uses the CSS comment syntax,
+ * it will appear in the CSS output. */
+
+@import "compass/css3/transition"
+
 html
   height: 100%
-
-
 .chromeframe
   margin: 0 0 5px
   padding: 5px 0
@@ -16,7 +21,7 @@ body
   height: 100%
   background-color: #c5c0bd
   font-size: 12px
-  font-family: "Open Sans"  arial, verdana, sans-serif  "Open Sans"
+  font-family: "Open Sans", arial, verdana, sans-serif
 
 a
   outline: none
@@ -52,29 +57,68 @@ textarea
   height: auto !important
   height: 100%
 
-* ==============
-*  Header
-* ==============
+/* Header */
 
 header
   position: relative
   height: 430px
-  background-color: #f16529
-
+.logo 
+  width: 315px
+  height: 72px
+  position: absolute
+  top: 43px
+  left: 140px
+  img
+    width: 315px
+    height: 72px
+.sdescription 
+  width: 270px
+  font-size: 10px
+  text-align: center
+  text-transform: uppercase
+  color: #d63a5b
+  position: absolute
+  display: block
+  top: 127px
+  left: 140px
+.stitle 
+  font-size: 10px
+  display: block
+  color: #3b3b3b
+  width: 360px
+  text-align: center
+  position: absolute
+  top: 220px
+  left: 110px
+.all-girls
+  display: block
+  width: 289px
+  height: 82px
+  position: absolute
+  top: 240px
+  left: 130px
+  text-align: center
+  background-image: url(img/bg/all-girls.png)
+  background-repeat: no-repeat
+  background-position: center
+  color: #fff
+  text-decoration: none
+  font-size: 24px
+  line-height: 3.2
+  letter-spacing: 3px
+  transition: all 0.5s
+.all-girls:hover
+  color: #000
 .backhead
   z-index: -50
   width: 100%
   background-position: center
   background-repeat: no-repeat
-
 .bkblock0n
   position: absolute
   top: 0
   height: 165px
-
-* ==============
-*  Menu
-* ==============
+/* Top Menu */
 
 .headernav
   margin: 0
@@ -141,29 +185,44 @@ header
         background: #333
         text-decoration: underline
 
-*--- dropdown ---
-
-* ========================
-*  INTERMEDIATE: IE Fixes
-* ========================
+/* INTERMEDIATE: IE Fixes */
 
 nav ul li
   display: inline
 
 .oldie nav a
   margin: 0 0.7%
-* ==============
-*  End Menu
-* ==============
 
-* Middle
-*-----------------------------------------------------------------------------
+/* Middle */
 
-section
+.content
   padding: 0 0 135px
+  background-color: #fff6f0
 
-* Footer
-*-----------------------------------------------------------------------------
+section 
+  width: 710px
+  float: left
+  padding: 30px 0
+  margin: 0 10px
+.model-looper
+  width: 145px
+  display: inline-block
+  float: left
+  text-align: center
+
+  img
+    width: 100px
+    height: 100px
+    border-radius: 5px
+    display: block
+    border: 4px solid #c5c0bd
+    margin: 0 auto
+
+aside
+  width: 250px
+  float: right
+
+/* Footer */
 
 footer
   position: relative
@@ -178,8 +237,7 @@ footer
   height: 100%
   background-color: #b3d4fc
 
-* wordpress default image align
-*-----------------------------------------------------------------------------
+/* wordpress default image align */
 
 .aligncenter, div.aligncenter
   display: block
@@ -214,15 +272,13 @@ footer
   float: right
   margin-left: 5px
 
-* ==========================================================================
-* Helper classes
-* ==========================================================================
+/* Helper classes */
 
 .ir
   overflow: hidden
   border: 0
   background-color: transparent
-  *text-indent: -9999px
+  //text-indent: -9999px
   &:before
     display: block
     width: 0
@@ -262,24 +318,16 @@ footer
     display: table
     content: " "
     clear: both
-
 .clear
   clear: both
 
-.clearfix
-  *zoom: 1
+/* Print styles */
 
- 
-* ==========================================================================
-* Print styles
-* ==========================================================================
 @media print
-  *
-    background: transparent !important
-    box-shadow: none !important
-    color: #000 !important
-    * Black prints faster: h5bp.com/s
-    text-shadow: none !important
+  background-color: transparent !important
+  box-shadow: none !important
+  color: #000 !important
+  text-shadow: none !important
   a
     text-decoration: underline
     &:visited
@@ -288,8 +336,6 @@ footer
       content: " (" attr(href) ")"
   abbr[title]:after
     content: " (" attr(title) ")"
-  *
-   * Don't show links for images, or javascript/internal links
   .ir a:after
     content: ""
   a
@@ -300,7 +346,6 @@ footer
     page-break-inside: avoid
   thead
     display: table-header-group
-  * h5bp.com/t
   tr
     page-break-inside: avoid
   img

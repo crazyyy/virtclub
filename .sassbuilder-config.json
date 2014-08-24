@@ -1,0 +1,10 @@
+{
+	"cmd": ["sass", "--update", "$file:${file_path}/../css/${file_base_name}.css"],
+	"options": {
+		"cache":         false,
+		"debug":         true,
+		"line-comments": true,
+		"line-numbers":  true,
+		"style":         "nested"
+	}
+}
