@@ -1,0 +1,1629 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ff",
+				"ff-v	font-family: Verdana, Geneva, sans-serif;"
+			],
+			[
+				"firs",
+				"first-child"
+			],
+			[
+				"trs",
+				"trs	transition: ${1:prop} ${2:time};"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"li",
+				"lighten(color, 10%)"
+			],
+			[
+				"article-",
+				"article-title"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"list-style-",
+				"list-style-position"
+			],
+			[
+				"liststyle",
+				"list-style-type"
+			],
+			[
+				"box-z",
+				"-moz-box-sizing:   (property)"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fff",
+				"F0F0F0"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"op:ms	-ms-filter:opacity"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"lis",
+				"list	list-style-type"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "html\n  height: 100%\n\n\n.chromeframe\n  margin: 0 0 5px\n  padding: 5px 0\n  background: #ccc\n  color: #000\n  -webkit-border-radius: 10px\n  -moz-border-radius: 10px\n  border-radius: 10px\n\nbody\n  width: 100%\n  height: 100%\n  background-color: #c5c0bd\n  font-size: 12px\n  font-family: \"Open Sans\"  arial, verdana, sans-serif  \"Open Sans\"\n\na\n  outline: none\n  color: blue\n  text-decoration: underline\n  &:hover\n    text-decoration: none\n\np\n  margin: 0 0 18px\n\nimg\n  border: none\n  vertical-align: middle\n\ninput\n  vertical-align: middle\n\nfieldset\n  margin: 0\n  padding: 0\n  border: 0\n  border-radius: 2px\n\ntextarea\n  resize: vertical\n\n#wrapper\n  margin: 0 auto\n  min-height: 100%\n  width: 980px\n  height: auto !important\n  height: 100%\n\n* ==============\n*  Header\n* ==============\n\nheader\n  position: relative\n  height: 430px\n  background-color: #f16529\n\n.backhead\n  z-index: -50\n  width: 100%\n  background-position: center\n  background-repeat: no-repeat\n\n.bkblock0n\n  position: absolute\n  top: 0\n  height: 165px\n\n* ==============\n*  Menu\n* ==============\n\n.headernav\n  margin: 0\n  padding: 0\n\n.headnav\n  float: left\n  margin: 0\n  padding: 0\n  width: 100%\n  list-style: none\n  li\n    position: relative\n    display: inline-block\n    float: left\n    a\n      display: block\n      margin: 0 5px\n      padding: 5px 5px\n      -webkit-border-radius: 2px\n      -moz-border-radius: 2px\n      border-radius: 2px\n      background-color: #333\n      color: #fff\n      text-decoration: none\n      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75)\n    &:first-child a\n      margin-left: 0\n    &:last-child a\n      margin-right: 0\n    a:hover\n      background-color: #6b0c36\n      background-color: rgba(107, 12, 54, 0.75)\n      color: #fff\n      text-decoration: underline\n  ul\n    position: absolute\n    left: -9999px\n    list-style: none\n    opacity: 0\n    -webkit-transition: 0.25s linear opacity\n    -moz-transition: 0.25s linear opacity\n    -o-transition: 0.25s linear opacity\n    transition: 0.25s linear opacity\n    li\n      float: none\n      padding-top: 1px\n    a\n      display: block\n      white-space: nowrap\n  li:hover\n    ul\n      left: 0\n      opacity: 1\n    a\n      background: rgba(107, 12, 54, 0.75)\n      background: #6b0c36\n      text-decoration: underline\n    ul\n      a\n        text-decoration: none\n      li a:hover\n        background: rgba(51, 51, 51, 0.75)\n        background: #333\n        text-decoration: underline\n\n*--- dropdown ---\n\n* ========================\n*  INTERMEDIATE: IE Fixes\n* ========================\n\nnav ul li\n  display: inline\n\n.oldie nav a\n  margin: 0 0.7%\n* ==============\n*  End Menu\n* ==============\n\n* Middle\n*-----------------------------------------------------------------------------\n\nsection\n  padding: 0 0 135px\n\n* Footer\n*-----------------------------------------------------------------------------\n\nfooter\n  position: relative\n  margin: -135px auto 0\n  width: 100%\n  height: 135px\n  background-color: #f16529\n\n.mainfooter\n  margin: 0 auto\n  width: 980px\n  height: 100%\n  background-color: #b3d4fc\n\n* wordpress default image align\n*-----------------------------------------------------------------------------\n\n.aligncenter, div.aligncenter\n  display: block\n  margin-right: auto\n  margin-left: auto\n\n.wp-caption\n  margin: 10px\n  padding-top: 4px\n  border: 1px solid #ddd\n  -webkit-border-radius: 3px\n  -moz-border-radius: 3px\n  border-radius: 3px\n  background-color: #f3f3f3\n  text-align: center\n  -khtml-border-radius: 3px\n  img\n    margin: 0\n    padding: 0\n    border: 0 none\n  p.wp-caption-text\n    margin: 0\n    padding: 0 4px 5px\n    font-size: 11px\n    line-height: 17px\n\n.alignleft\n  float: left\n  margin-right: 5px\n\n.alignright\n  float: right\n  margin-left: 5px\n\n* ==========================================================================\n* Helper classes\n* ==========================================================================\n\n.ir\n  overflow: hidden\n  border: 0\n  background-color: transparent\n  *text-indent: -9999px\n  &:before\n    display: block\n    width: 0\n    height: 100%\n    content: \"\"\n\n.hidden\n  display: none !important\n  visibility: hidden\n\n.visuallyhidden\n  position: absolute\n  overflow: hidden\n  clip: rect(0 0 0 0)\n  margin: -1px\n  padding: 0\n  width: 1px\n  height: 1px\n  border: 0\n  &.focusable\n    &:active, &:focus\n      position: static\n      overflow: visible\n      clip: auto\n      margin: 0\n      width: auto\n      height: auto\n\n.invisible\n  visibility: hidden\n\n.clearfix\n  &:before\n    display: table\n    content: \" \"\n  &:after\n    display: table\n    content: \" \"\n    clear: both\n\n.clear\n  clear: both\n\n.clearfix\n  *zoom: 1\n\n \n* ==========================================================================\n* Print styles\n* ==========================================================================\n@media print\n  *\n    background: transparent !important\n    box-shadow: none !important\n    color: #000 !important\n    * Black prints faster: h5bp.com/s\n    text-shadow: none !important\n  a\n    text-decoration: underline\n    &:visited\n      text-decoration: underline\n    &[href]:after\n      content: \" (\" attr(href) \")\"\n  abbr[title]:after\n    content: \" (\" attr(title) \")\"\n  *\n   * Don't show links for images, or javascript/internal links\n  .ir a:after\n    content: \"\"\n  a\n    &[href^=\"javascript:\"]:after, &[href^=\"#\"]:after\n      content: \"\"\n  pre, blockquote\n    border: 1px solid #999\n    page-break-inside: avoid\n  thead\n    display: table-header-group\n  * h5bp.com/t\n  tr\n    page-break-inside: avoid\n  img\n    page-break-inside: avoid\n    max-width: 100% !important\n  p, h2, h3\n    orphans: 3\n    widows: 3\n  h2, h3\n    page-break-after: avoid",
+			"file": "html/style.sass",
+			"file_size": 5905,
+			"file_write_time": 130533858647848017,
+			"settings":
+			{
+				"buffer_size": 5616,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html class=\"no-js\">\n	<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n	<!--[if IE]>\n		<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n	<![endif]-->\n\n	<title>virt club </title>\n\n	<meta name=\"keywords\" content=\"\" />\n	<meta name=\"description\" content=\"\" />\n\n	<!-- dns prefetch -->\n	<link href=\"//www.google-analytics.com\" rel=\"dns-prefetch\">\n	<link href=\"favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\" />\n	<link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\" media=\"screen, projection\" />\n\n    <script src=\"http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js\"></script>\n</head>\n<body>\n	<!--[if lt IE 7]>\n        <p class=\"chromeframe\">You are using an <strong>outdated</strong> browser. Please <a rel=\"nofollow\" href=\"http://browsehappy.com/\">upgrade your browser</a> or <a rel=\"nofollow\" href=\"http://www.google.com/chromeframe/?redirect=true\">activate Google Chrome Frame</a> to improve your experience.</p>\n    <![endif]-->\n<div id=\"wrapper\">\n<header class=\"clearfix\">\n\n	<a href=\"/\" class=\"logo\"><!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script --><img src=\"img/logo.png\" alt=\"\"></a>\n\n    <span class=\"sdescription\">CЕКС ПО СКАЙПУ ИЛИ ВИРТ ПО СКАЙПУ, ИЛИ ВИРТУАЛЬНЫЙ СЕКС ПО СКАЙПУ - ВСЁ ЗДЕСЬ!</span>\n    <span class=\"stitle\">Хочешь виртуального секса сейчас? Жми на кнопку:</span>\n\n    <a class=\"all-girls\" href=\"\">Все модели</a>\n\n    <nav class=\"headernav\" role=\"navigation\">\n        <ul class=\"headnav clearfix\">\n            <li><a href=\"#\">Главная</a></li>\n            <li><a href=\"#\">VIP Модели </a></li>\n            <li><a href=\"#\">Добавить Анкету</a></li>\n            <li><a href=\"#\">Фото</a></li>\n            <li><a href=\"#\">Пользователи</a></li>\n            <li><a href=\"#\">Форум</a></li>\n            <li><a href=\"#\">Работа девушкам</a></li>\n            <li><a href=\"#\">Статьи</a></li>\n            <li><a href=\"#\">Контакты</a></li>\n        </ul>\n    </nav>\n\n</header>\n\n<div class=\"content clearfix\">\n    <section role=\"main\" class=\"clearfix\">\n        <article>\n            <h2 class=\"title\">article section h2</h2>\n\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor.\n                Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper\n                consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam\n                ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>\n        </article>\n\n        <article>\n            <h1 class=\"title\">article section h1</h1>\n\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor.\n                Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper\n                consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam\n                ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>\n        </article>\n\n        <div class=\"lambada\">\n            how to change\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque deleniti fugit iste magni placeat porro quisquam quo voluptate voluptatum. Enim ipsam iure perspiciatis quos recusandae veniam vero voluptate. Laborum!\n        </div>\n\n        <article>\n            <h3 class=\"title\">article section h3</h3>\n\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli``t. Aliquam sodales urna non odio egestas tempor.\n                Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper\n                consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam\n                ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>\n        </article>\n\n        <article>\n            <h2 class=\"title\">article section h2</h2>\n\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor.\n                Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper\n                consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam\n                ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>\n        </article>\n    </section>\n    <aside>\n        <h6>Топ модели в сети:</h6>\n        <ul>\n            <li>LisaKisa</li>\n            <li>Валерия</li>\n            <li>Алена</li>\n            <li>Мия</li>\n            <li>Stella</li>\n            <li>Настя</li>\n            <li>Лера</li>\n            <li>Мия</li>\n            <li>Stella</li>\n            <li>Настя</li>\n            <li>Лера</li>\n        </ul>\n    </aside>\n</div><!--content clearfix-->\n\n</div><!-- #wrapper -->\n\n<footer class=\"wrapper\">\n<div class=\"mainfooter\">\n	<p class=\"copy\" role=\"contentinfo\">Виртуальный секс, как много манящего, эротичного и волнующего... Бездушное порно давно перестало быть столь популярным, мужчин потянуло на что-то новенькое, захотелось, чтоб девушка из порно ожила, заговорила с ним, выполняла его просьбы - наступило время скайп секса.<br/>\n        Последние год-два секс по скайпу набрал бешенную популярность, привлекая все больше разнообразных девушек, готовых оказать услуги. Мы собрали всех этих красоток в одном месте. </p>\n\n    <p class=\"bottom-copy\">virtclub.com - является передовым сайтом по вирт скайп сексу, локомотив, который привлекает большое количество зрителей и очень популярен у топовых моделей скайпа. virtclub.com - самый посещаемый на данный момент сайт по скайп сексу и поиску виртуальной партнерши для секса. Мы рады приветствовать вас на лучшем сайте, здесь именно то, что вы искали. Добро пожаловать в рай виртуального секса, стань частичкой этой необузданной стихии страсти.</p>\n\n    <p class=\"siteinfo\">© Copyright 2014 — VirtClub.com. <br/>  Все права защищены.</p>\n\n    <div class=\"counters\">\n        <span></span><span></span>\n    </div>\n\n</div><!-- mainfooter -->\n</footer>\n\n<div class=\"backhead bkblock0n\">\n</div><!-- backhead bkblock0n -->\n\n	<script src=\"http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js\"></script>\n</body>\n</html>",
+			"file": "html/index.html",
+			"file_size": 7619,
+			"file_write_time": 130533842009486343,
+			"settings":
+			{
+				"buffer_size": 6518,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@charset \"UTF-8\";\n/*Theme Name:   WP Easy\n *Theme URI:    https://github.com/crazyyy/wp-easy\n *Description:  ╨Я╤А╨╕╨▓╨╡╤В╤Б╤В╨▓╤Г╤О. <br />╨в╨╡╨╝╨░ ╤Б╨╛╨╖╨┤╨░╨╜╨░ ╨┤╨╗╤П ╤Г╨┤╨╛╨▒╨╜╨╛╨╣ ╨╕╨╜╤В╨╡╨│╤А╨░╤Ж╨╕╨╕ ╤И╨░╨▒╨╗╨╛╨╜╨╛╨▓ ╨▓ WordPress, ╨┐╨╛╨┤╨┤╨╡╤А╨╢╨╕╨▓╨░╨╡╤В ╨▓╤Б╨╡ ╤Б╨╛╨▓╤А╨╡╨╝╨╡╨╜╤Л╨╜╨╡ ╤Д╨╕╤И╨║╨╕, ╨╝╨╕╨╜╨╕╨╝╨╕╨╖╨╕╤А╨╛╨▓╨░╨╜╨╜╨░╤П.<br />╨Х╤Б╨╗╨╕ ╨▓╨░╨╝ ╨╜╤Г╨╢╨╜╨░ ╨╕╨╜╤В╨╡╨│╤А╨░╤Ж╨╕╤П ╨▓╨░╤И╨╡╨│╨╛ ╤И╨░╨▒╨╗╨╛╨╜╨░ ╨╜╨░ WP, ╨▓╨╡╤А╤Б╤В╨║╨░ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤Б╤В╨╕ ╨┐╤А╨░╨▓╨║╨╕ - ╨╛╨▒╤А╨░╤Й╨░╨╣╤В╨╡╤Б╤М ╨▓ ╨┐╨╛╨┤╨┤╨╡╤А╨╢╨║╤Г - http://saitobaza.ru/, icq 633-308-800 \n *Version:    14-02-12\n *Author:     crazyyy and others\n *Author URI:   http://saitobaza.ru/\n *Tags:       HTML5, CSS3\n *License:  MIT\n *License URI:  http://opensource.org/licenses/mit-license.php */\n@import url(\"css/normalize.css\");\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent;\n  list-style-type: none; }\n\nhtml {\n  height: 100%; }\n\n.chromeframe {\n  margin: 0 0 5px;\n  padding: 5px 0;\n  background: #ccc;\n  border-radius: 5px;\n  color: #000;\n  -webkit-border-radius: 10px;\n  -moz-border-radius: 10px;\n  border-radius: 10px; }\n\nbody {\n  width: 100%;\n  height: 100%;\n  background-color: #c5c0bd;\n  font-size: 12px;\n  font-family: \"Open Sans\" arial, verdana, sans-serif \"Open Sans\"; }\n\na {\n  outline: none;\n  color: blue;\n  text-decoration: underline; }\n  a:hover {\n    text-decoration: none; }\n\np {\n  margin: 0 0 18px; }\n\nimg {\n  border: none;\n  vertical-align: middle; }\n\ninput {\n  vertical-align: middle; }\n\nfieldset {\n  margin: 0;\n  padding: 0;\n  border: 0; }\n\ntextarea {\n  resize: vertical; }\n\n#wrapper {\n  margin: 0 auto;\n  min-height: 100%;\n  width: 980px;\n  height: auto !important;\n  height: 100%; }\n\n/* ==============\n *  Header\n * ============== */\nheader {\n  position: relative;\n  height: 430px;\n  background-color: #f16529; }\n\n.backhead {\n  z-index: -50;\n  width: 100%;\n  background-position: center;\n  background-repeat: no-repeat; }\n\n.bkblock0n {\n  position: absolute;\n  top: 0;\n  height: 165px; }\n\n/* ==============\n *  Menu\n * ============== */\n.headernav {\n  margin: 0;\n  padding: 0; }\n\n.headnav {\n  float: left;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  list-style: none; }\n  .headnav li {\n    position: relative;\n    display: inline-block;\n    float: left; }\n    .headnav li a {\n      display: block;\n      margin: 0 5px;\n      padding: 5px 5px;\n      -webkit-border-radius: 2px;\n      -moz-border-radius: 2px;\n      border-radius: 2px;\n      background-color: #333;\n      color: #fff;\n      text-decoration: none;\n      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75); }\n    .headnav li:first-child a {\n      margin-left: 0; }\n    .headnav li:last-child a {\n      margin-right: 0; }\n    .headnav li a:hover {\n      background: #6b0c36;\n      background: rgba(107, 12, 54, 0.75);\n      color: #fff;\n      text-decoration: underline; }\n  .headnav ul {\n    position: absolute;\n    left: -9999px;\n    list-style: none;\n    opacity: 0;\n    -webkit-transition: 0.25s linear opacity;\n    -moz-transition: 0.25s linear opacity;\n    -o-transition: 0.25s linear opacity;\n    transition: 0.25s linear opacity; }\n    .headnav ul li {\n      float: none;\n      padding-top: 1px; }\n    .headnav ul a {\n      display: block;\n      white-space: nowrap; }\n  .headnav li:hover ul {\n    left: 0;\n    opacity: 1; }\n  .headnav li:hover a {\n    background: rgba(107, 12, 54, 0.75);\n    background: #6b0c36;\n    text-decoration: underline; }\n  .headnav li:hover ul a {\n    text-decoration: none; }\n  .headnav li:hover ul li a:hover {\n    background: rgba(51, 51, 51, 0.75);\n    background: #333;\n    text-decoration: underline; }\n\n/*--- dropdown --- */\n/* ========================\n *  INTERMEDIATE: IE Fixes\n * ======================== */\nnav ul li {\n  display: inline; }\n\n.oldie nav a {\n  margin: 0 0.7%; }\n\n/* ==============\n *  End Menu\n * ============== */\n/* Middle\n *----------------------------------------------------------------------------- */\nsection {\n  padding: 0 0 135px; }\n\n/* Footer\n *----------------------------------------------------------------------------- */\nfooter {\n  position: relative;\n  margin: -135px auto 0;\n  width: 100%;\n  height: 135px;\n  background-color: #f16529; }\n\n.mainfooter {\n  margin: 0 auto;\n  width: 980px;\n  height: 100%;\n  background-color: #b3d4fc; }\n\n/* wordpress default image align\n *----------------------------------------------------------------------------- */\n.aligncenter, div.aligncenter {\n  display: block;\n  margin-right: auto;\n  margin-left: auto; }\n\n.wp-caption {\n  margin: 10px;\n  padding-top: 4px;\n  border: 1px solid #ddd;\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  background-color: #f3f3f3;\n  text-align: center;\n  -khtml-border-radius: 3px; }\n  .wp-caption img {\n    margin: 0;\n    padding: 0;\n    border: 0 none; }\n  .wp-caption p.wp-caption-text {\n    margin: 0;\n    padding: 0 4px 5px;\n    font-size: 11px;\n    line-height: 17px; }\n\n.alignleft {\n  float: left;\n  margin-right: 5px; }\n\n.alignright {\n  float: right;\n  margin-left: 5px; }\n\n/* end of image align */\n/* ==========================================================================\n * Helper classes\n * ========================================================================== */\n.ir {\n  overflow: hidden;\n  border: 0;\n  background-color: transparent;\n  *text-indent: -9999px; }\n  .ir:before {\n    display: block;\n    width: 0;\n    height: 100%;\n    content: \"\"; }\n\n.hidden {\n  display: none !important;\n  visibility: hidden; }\n\n.visuallyhidden {\n  position: absolute;\n  overflow: hidden;\n  clip: rect(0 0 0 0);\n  margin: -1px;\n  padding: 0;\n  width: 1px;\n  height: 1px;\n  border: 0; }\n  .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {\n    position: static;\n    overflow: visible;\n    clip: auto;\n    margin: 0;\n    width: auto;\n    height: auto; }\n\n.invisible {\n  visibility: hidden; }\n\n.clearfix:before {\n  display: table;\n  content: \" \"; }\n.clearfix:after {\n  display: table;\n  content: \" \";\n  clear: both; }\n\n.clear {\n  clear: both; }\n\n.clearfix {\n  *zoom: 1; }\n\n/* ==========================================================================\n * Print styles\n * ========================================================================== */\n@media print {\n  * {\n    background: transparent !important;\n    box-shadow: none !important;\n    color: #000 !important;\n    /* Black prints faster: h5bp.com/s */\n    text-shadow: none !important; }\n\n  a {\n    text-decoration: underline; }\n    a:visited {\n      text-decoration: underline; }\n    a[href]:after {\n      content: \" (\" attr(href) \")\"; }\n\n  abbr[title]:after {\n    content: \" (\" attr(title) \")\"; }\n\n  /* Don't show links for images, or javascript/internal links */\n  .ir a:after {\n    content: \"\"; }\n\n  a[href^=\"javascript:\"]:after, a[href^=\"#\"]:after {\n    content: \"\"; }\n\n  pre, blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid; }\n\n  thead {\n    display: table-header-group; }\n\n  /* h5bp.com/t */\n  tr {\n    page-break-inside: avoid; }\n\n  img {\n    page-break-inside: avoid;\n    max-width: 100% !important; }\n\n  p, h2, h3 {\n    orphans: 3;\n    widows: 3; }\n\n  h2, h3 {\n    page-break-after: avoid; } }\n\n/*# sourceMappingURL=style.css.map */\n",
+			"file": "html/_tmp/style.css",
+			"file_size": 8565,
+			"file_write_time": 130533802718888911,
+			"settings":
+			{
+				"buffer_size": 7593,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 162.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify: Convert from SASS to current type"
+			],
+			[
+				"tor",
+				"TortoiseSVN: Commit"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"wo",
+				"WordPress: Open Config File"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"snip de",
+				"Snippet: desktop  laptop"
+			],
+			[
+				"sni mo",
+				"Snippet: smartphone"
+			],
+			[
+				"snipe",
+				"Snippet: :focus"
+			],
+			[
+				"snip",
+				"Snippet: ipad"
+			],
+			[
+				"clea",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ty",
+				"Tidy HTML"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"live",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"qi",
+				"Git: Quick Commit"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gut",
+				"Git: Quick Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"subl",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"colo",
+				"BracketHighlighter: Toggle Global Enable"
+			]
+		],
+		"width": 522.0
+	},
+	"console":
+	{
+		"height": 209.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/LiveReload/LiveReload.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Dyandex/work/verstka/virtclub/.sassbuilder-config.json",
+		"/D/Dyandex/work/verstka/virtclub/html/style.css",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/style.css",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/page-contact.php",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/sftp-config.json",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/page-services.php",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/page-services-subpage.php",
+		"/D/Dyandex/work/verstka/keeltekoolinterl.eu-rip-verstka/wp-keeltekoolinterl/style.css",
+		"/D/Dyandex/work/verstka/keeltekoolinterl.eu-rip-verstka/wp-keeltekoolinterl/sidebar-calendar.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-equipment.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-aboutus.php",
+		"/D/Dyandex/work/verstka/ria-test/html/sftp-config.json",
+		"/D/Dyandex/work/verstka/ria-test/html/css/main.css",
+		"/D/Dyandex/work/verstka/ria-test/html/index.html",
+		"/C/Windows/Temp/Rar$DRa0.993/autocomplete.dat",
+		"/C/Windows/Temp/Rar$DRa0.637/autocomplete.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-actions.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-response.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-about-water.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-productions.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-delivery-price.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/header.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/js/scripts.js",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/index_o.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/js/tabulous.js",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/sftp-config.json",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/js/scripts.js",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/js/scroll.js",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/index.html",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/style.css",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/sftp-config.json",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/TortoiseSVN/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/TortoiseSVN/TortoiseSVN.sublime-settings",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/register.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/page.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/about.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/loop.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/sidebar-calendar.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/footer.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/style.css",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/sftp-config.json",
+		"/C/OpenServer/domains/less.me/css/style.less",
+		"/D/Dropbox/Work/Verstka/markup-process-gh-pages/psd/design.psd",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/sftp-config.json",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services-subpage2.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services-subpage.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-contact.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-home.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/frontpage-header.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-about.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/footer.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/js/sitepress.js",
+		"/D/Dropbox/Work/Verstka/tancportal/bck/old-site/wp-content/themes/wp-tancportal/sftp-config.json",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/home.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/footer.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/category.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/js/scripts.js",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/page.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/sftp-config.json",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/sidebar.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/header.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/functions.php",
+		"/D/Dropbox/Work/Verstka/sitel.com/html/layout.css",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/tabs/description.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/product-thumbnails.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/product-image.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/content-single-product.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/single.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/css/admin.css",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/search.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/index_o.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/index.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/404.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/loop.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/category.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/js/scripts.js",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/page-home.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/sidebar-left.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/sidebar-right.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/footer.php",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/WordpressDev/WordPressDev.sublime-settings",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/index.html",
+		"/C/OpenServer/domains/shop.robotown.ru/phpshop/templates/saitobaza/index.html",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Gist/Gist.sublime-settings",
+		"/D/Dropbox/Work/Verstka/robotown.ru/html/js/scripts.js",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/404.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/loop.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/pagination.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/index.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/footer.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/css/compressed.css",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/css/drugs_plugin.css",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/single.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/page.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/header.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/thumbnail.php",
+		"/C/OpenServer/domains/academ-clinic.me/wp-content/themes/wp-academ/sidebar-light.php",
+		"/C/OpenServer/domains/academ-clinic.me/style.css",
+		"/C/OpenServer/domains/academ-clinic.me/index.html",
+		"/C/OpenServer/domains/academ-clinic.me/css/fancy_white.css",
+		"/C/OpenServer/domains/academ-clinic.me/css/calendar.css",
+		"/C/OpenServer/domains/academ-clinic.me/css/colorbox.css",
+		"/C/OpenServer/domains/adaptive.me/index.html",
+		"/C/OpenServer/domains/adaptive.me/style.css",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Automatic Backups/Automatic Backups.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/Distraction Free.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/CSS.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Git/Git.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Emmet/Emmet.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/CSSTidy/CSSTidy.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/CSScomb/CSScomb.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/404.php",
+		"/C/OpenServer/domains/otdelkanaura.me/wp-content/themes/wp-otdelkaokna/single.php"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".widget_text",
+			"menu",
+			".contact-bar textarea",
+			", .contact-bar textarea",
+			".widget_tex",
+			".widget_text",
+			".widget_text, .advanced_text",
+			"widg",
+			"font-fa",
+			"emodal",
+			"eModal-1",
+			"logo-block",
+			".productions li h4",
+			".response .button-transwhite",
+			".button-orange",
+			"orange",
+			"href=\"\"",
+			".headernav",
+			".about-water h3",
+			"135",
+			".aboutus ul.avards li a img.aboutus ul.avards li a img",
+			" li",
+			"60",
+			"980",
+			".contact-bar .item input[type=\"text\"], .contact-bar .item input[type=\"email\"], .contact-bar .wpcf7-form-control-wrap input[type=\"text\"], .contact-bar .wpcf7-form-control-wrap input[type=\"email\"]",
+			"font-f",
+			"kalender-nimekiri",
+			".kalender-nimekiri",
+			"#kliendid-meist .quote",
+			"widge",
+			"%3C?php%20echo%20get_template_directory_uri();%20?%3E/",
+			"ctaArea",
+			"back",
+			"langSelect2",
+			"src=\"img",
+			"src",
+			"nav",
+			".breadcrumbs_top .breadcrumbs > span",
+			".breadcrumbs_top .breadcrumbs > span\\",
+			".breadcrumbs_top .breadcrumbs > span",
+			"home",
+			"wpeHeadNav",
+			".services-list",
+			".wpcf7-form-control-wrap.file-554",
+			".contact-bar .wpcf7-form-control-wrap",
+			"Montserrat",
+			"font-family: 'Montserrat', Verdana, sans-serif;",
+			"Montserrat",
+			"a:hover",
+			".cta .half",
+			"langua",
+			"#lang_sel_list a, #lang_sel_list a:visited",
+			"language",
+			"url",
+			"href=[^>]*",
+			"href=\"http://browsehappy.com/\"",
+			".mainfooter:after",
+			"sideba",
+			"header-slider",
+			"loope",
+			"home-text",
+			"logo",
+			"135",
+			"logo",
+			"980",
+			"style",
+			"url",
+			"../font/icomoon",
+			"url",
+			"../images",
+			"./index_files",
+			"src",
+			".home-text h4, .article-text .article-title",
+			".home-text h1",
+			"article-border",
+			"home-text",
+			"article",
+			"ar",
+			"article",
+			"searc",
+			"header",
+			"src=\"img",
+			"search",
+			"@",
+			"src=\"img",
+			"top-sales",
+			"carousell-sales-inner",
+			"carousell .carousell-sales-inner",
+			"carousell-sales-inner",
+			"carousell-topsales-inner",
+			"carousell-sales-inner",
+			"carousell-sales",
+			"carousell-sales-item",
+			"135",
+			"980",
+			"800",
+			"ad726-215",
+			"left",
+			"#FDEEBA",
+			"grey",
+			"cat-item",
+			"textarea",
+			".comments",
+			"comments",
+			"crp_related",
+			"crp_excerpt",
+			"related-posts",
+			"crp_excerpt",
+			"crp_title",
+			"crp_thumb",
+			"li1",
+			"to_add3.png",
+			"shadow.gif",
+			"additional",
+			"right",
+			"<!-- end CONTENT -->",
+			"</div><!-- end CONTENT -->",
+			"            </div><!-- end CONTENT -->",
+			"left",
+			"id=\"content\"",
+			"\"content",
+			"content",
+			"<div id=\"col_left\">",
+			"<aasa>",
+			"<a[^>]*href=[^>]*>(.*?)</a>",
+			"widget",
+			"sidebar-menu",
+			"wpeSideNav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"href=\"#\"",
+			"68",
+			" .tab-header li",
+			"72",
+			"<?php echo get_template_directory_uri(); ?>/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"font-family: 'PT Sans', sans-serif;",
+			"href=\"#\"",
+			"100",
+			"950",
+			"fonts",
+			"img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"phpshop/templates/saitobaza/img",
+			"carousell-inner",
+			"carousell-item",
+			"120",
+			"1200",
+			"rgba(253, 238, 186, 0.25)",
+			"#FDEEBA",
+			"</a>",
+			"<a href=\"\">\\1<aasa>",
+			"<a href=\"\">/1<a\\/>",
+			").png",
+			")png",
+			"png\" ",
+			"timthumb",
+			" ",
+			"h3",
+			"../img/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"img",
+			"img/",
+			"font-family: 'Open Sans', sans-serif;",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/photos",
+			"current-menu-item",
+			"",
+			"img",
+			"70",
+			"1000",
+			"<li>",
+			"showposts=12",
+			"page-template-page-jobs-php",
+			"http://mihas86.myjino.ru/wp-content/themes/wp-onetoone/img/",
+			"http://mihas86.myjino.ru/",
+			"140",
+			"1000",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img/",
+			"url('../img",
+			"url('img/",
+			"href=\"#\"",
+			"src=\"img",
+			"img",
+			"relative",
+			"  behavior: url(http://demo.saitobaza.ru/wp-content/themes/wp-clickprime/PIE/PIE.htc);",
+			"section",
+			"/PIE.htc",
+			"http://demo.saitobaza.ru/wp-content/themes/wp-clickprime/PIE.htc",
+			".section-main",
+			"400",
+			"515",
+			"115",
+			"175",
+			"href=\"#\"",
+			"320",
+			"<span class=\"article-info\"><span class=\"date\">10:26  23.02.2014</span>  Интервью  Богдан Тимин</span>",
+			"<h2><a href=\"\">Что случилось с Михаилом Рокфеллером</a></h2>",
+			"180",
+			"1000",
+			"253",
+			"MyriadProBoldCondensed",
+			"1000",
+			"",
+			"wpeasy",
+			"c"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "html/style.sass",
+					"settings":
+					{
+						"buffer_size": 5616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								605
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"class_or_id": "wrapper",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 603.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/index.html",
+					"settings":
+					{
+						"buffer_size": 6518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1091
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 465.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/_tmp/style.css",
+					"settings":
+					{
+						"buffer_size": 7593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1420,
+								1401
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 483.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.git":
+	{
+		"height": 183.0
+	},
+	"output.sftp":
+	{
+		"height": 149.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 172.0
+	},
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Dropbox/Work/Verstka/nayada/html/nayada-html.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}

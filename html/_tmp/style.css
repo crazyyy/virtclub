@@ -8,7 +8,7 @@
  *Tags:       HTML5, CSS3
  *License:  MIT
  *License URI:  http://opensource.org/licenses/mit-license.php */
-@import url("css/normalize.min.css");
+@import url("css/normalize.css");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
@@ -26,6 +26,7 @@ html {
   margin: 0 0 5px;
   padding: 5px 0;
   background: #ccc;
+  border-radius: 5px;
   color: #000;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -34,6 +35,7 @@ html {
 body {
   width: 100%;
   height: 100%;
+  background-color: #c5c0bd;
   font-size: 12px;
   font-family: "Open Sans" arial, verdana, sans-serif "Open Sans"; }
 
@@ -74,7 +76,7 @@ textarea {
  * ============== */
 header {
   position: relative;
-  height: 165px;
+  height: 430px;
   background-color: #f16529; }
 
 .backhead {
