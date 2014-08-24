@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6873c2e-00b0-47e4-b7bf-41eb6192c352" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="virtclub.iws" />
@@ -213,7 +212,11 @@
       <created>1408887987985</created>
       <updated>1408887987985</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test new ssha keys">
+      <created>1408888398240</created>
+      <updated>1408888398240</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -278,7 +281,8 @@
     <MESSAGE value="commit add phpshorm" />
     <MESSAGE value="ann .idea file" />
     <MESSAGE value="test push" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push" />
+    <MESSAGE value="test new ssha keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="test new ssha keys" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
