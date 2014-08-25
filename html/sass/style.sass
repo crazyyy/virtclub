@@ -3,7 +3,10 @@
  * since it uses the CSS comment syntax,
  * it will appear in the CSS output. */
 
-@import "compass/css3/transition"
+@import "compass/css3"
+@import "compass/css3/pie"
+
+$color-text: #3b3b3b
 
 html
   height: 100%
@@ -12,9 +15,7 @@ html
   padding: 5px 0
   background: #ccc
   color: #000
-  -webkit-border-radius: 10px
-  -moz-border-radius: 10px
-  border-radius: 10px
+  +border-radius(10px)
 
 body
   width: 100%
@@ -62,6 +63,9 @@ textarea
 header
   position: relative
   height: 430px
+  background-image: url(../img/bg/header.jpg)
+  background-repeat: no-repeat
+  background-position: center top
 .logo 
   width: 315px
   height: 72px
@@ -84,7 +88,7 @@ header
 .stitle 
   font-size: 10px
   display: block
-  color: #3b3b3b
+  color: $color-text
   width: 360px
   text-align: center
   position: absolute
@@ -98,7 +102,7 @@ header
   top: 240px
   left: 130px
   text-align: center
-  background-image: url(img/bg/all-girls.png)
+  background-image: url(../img/bg/all-girls.png)
   background-repeat: no-repeat
   background-position: center
   color: #fff
@@ -106,7 +110,7 @@ header
   font-size: 24px
   line-height: 3.2
   letter-spacing: 3px
-  transition: all 0.5s
+  +transition(all 0.3s)
 .all-girls:hover
   color: #000
 .backhead
@@ -123,6 +127,18 @@ header
 .headernav
   margin: 0
   padding: 0
+  width: 100%
+  height: 42px
+  position: absolute
+  left: 0
+  bottom: 0
+  background: #72cde1
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#72cde1), to(#2589ba))
+  background: -webkit-linear-gradient(#72cde1, #2589ba)
+  background: -moz-linear-gradient(#72cde1, #2589ba)
+  background: -ms-linear-gradient(#72cde1, #2589ba)
+  background: -o-linear-gradient(#72cde1, #2589ba)
+  background: linear-gradient(#72cde1, #2589ba)
 
 .headnav
   float: left
@@ -130,61 +146,26 @@ header
   padding: 0
   width: 100%
   list-style: none
+  text-align: center
   li
     position: relative
     display: inline-block
-    float: left
+
     a
       display: block
-      margin: 0 5px
-      padding: 5px 5px
-      -webkit-border-radius: 2px
-      -moz-border-radius: 2px
-      border-radius: 2px
-      background-color: #333
+      margin: 0 12px
+      font-size: 14px
+      padding: 11px 5px
+      font-style: italic
       color: #fff
       text-decoration: none
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75)
     &:first-child a
       margin-left: 0
     &:last-child a
       margin-right: 0
     a:hover
-      background-color: #6b0c36
-      background-color: rgba(107, 12, 54, 0.75)
-      color: #fff
+      color: #000
       text-decoration: underline
-  ul
-    position: absolute
-    left: -9999px
-    list-style: none
-    opacity: 0
-    -webkit-transition: 0.25s linear opacity
-    -moz-transition: 0.25s linear opacity
-    -o-transition: 0.25s linear opacity
-    transition: 0.25s linear opacity
-    li
-      float: none
-      padding-top: 1px
-    a
-      display: block
-      white-space: nowrap
-  li:hover
-    ul
-      left: 0
-      opacity: 1
-    a
-      background: rgba(107, 12, 54, 0.75)
-      background: #6b0c36
-      text-decoration: underline
-    ul
-      a
-        text-decoration: none
-      li a:hover
-        background: rgba(51, 51, 51, 0.75)
-        background: #333
-        text-decoration: underline
-
 /* INTERMEDIATE: IE Fixes */
 
 nav ul li
@@ -196,7 +177,7 @@ nav ul li
 /* Middle */
 
 .content
-  padding: 0 0 135px
+  padding: 0 0 295px
   background-color: #fff6f0
 
 section 
@@ -205,18 +186,32 @@ section
   padding: 30px 0
   margin: 0 10px
 .model-looper
-  width: 145px
+  width: 142px
   display: inline-block
   float: left
   text-align: center
-
+  a
+    text-decoration: none
+    color: #555555
+  h4
+    text-align: left
+    font-size: 16px
+    font-weight: normal
+    text-decoration: none
+    margin-bottom: 10px
+    margin-left: 20px
   img
     width: 100px
     height: 100px
-    border-radius: 5px
+    +border-radius (10px)
     display: block
     border: 4px solid #c5c0bd
     margin: 0 auto
+    margin-bottom: 8px
+    +transition (all 0.5s) 
+  &:hover img 
+    border-color: #000
+  span
 
 aside
   width: 250px
@@ -226,16 +221,22 @@ aside
 
 footer
   position: relative
-  margin: -135px auto 0
+  margin: -295px auto 0
   width: 100%
-  height: 135px
-  background-color: #f16529
+  height: 295px
+  background-image: url(../img/bg/footer.png)
+  background-repeat: no-repeat
+  background-position: center
+
+  .copy
+    color: #fff
+    padding: 20px
+    font-size: 10px
 
 .mainfooter
   margin: 0 auto
   width: 980px
   height: 100%
-  background-color: #b3d4fc
 
 /* wordpress default image align */
 
