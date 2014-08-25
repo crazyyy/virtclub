@@ -1,7 +1,13 @@
-/* This comment is
- * several lines long.
- * since it uses the CSS comment syntax,
- * it will appear in the CSS output. */
+@charset "UTF-8";
+/* Theme Name:   WP Easy
+ * Theme URI:    https://github.com/crazyyy/wp-easy
+ * Description:  ╨Я╤А╨╕╨▓╨╡╤В╤Б╤В╨▓╤Г╤О. <br />╨в╨╡╨╝╨░ ╤Б╨╛╨╖╨┤╨░╨╜╨░ ╨┤╨╗╤П ╤Г╨┤╨╛╨▒╨╜╨╛╨╣ ╨╕╨╜╤В╨╡╨│╤А╨░╤Ж╨╕╨╕ ╤И╨░╨▒╨╗╨╛╨╜╨╛╨▓ ╨▓ WordPress, ╨┐╨╛╨┤╨┤╨╡╤А╨╢╨╕╨▓╨░╨╡╤В ╨▓╤Б╨╡ ╤Б╨╛╨▓╤А╨╡╨╝╨╡╨╜╤Л╨╜╨╡ ╤Д╨╕╤И╨║╨╕, ╨╝╨╕╨╜╨╕╨╝╨╕╨╖╨╕╤А╨╛╨▓╨░╨╜╨╜╨░╤П.<br />╨Х╤Б╨╗╨╕ ╨▓╨░╨╝ ╨╜╤Г╨╢╨╜╨░ ╨╕╨╜╤В╨╡╨│╤А╨░╤Ж╨╕╤П ╨▓╨░╤И╨╡╨│╨╛ ╤И╨░╨▒╨╗╨╛╨╜╨░ ╨╜╨░ WP, ╨▓╨╡╤А╤Б╤В╨║╨░ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤Б╤В╨╕ ╨┐╤А╨░╨▓╨║╨╕ - ╨╛╨▒╤А╨░╤Й╨░╨╣╤В╨╡╤Б╤М ╨▓ ╨┐╨╛╨┤╨┤╨╡╤А╨╢╨║╤Г - http://saitobaza.ru/, icq 633-308-800 
+ * Version:    14-02-12
+ * Author:     crazyyy and others
+ * Author URI:   http://saitobaza.ru/
+ * Tags:       HTML5, CSS3 
+ * License:  MIT
+ * License URI:  http://opensource.org/licenses/mit-license.php */
 html {
   height: 100%;
 }
@@ -279,7 +285,7 @@ aside {
   background-position: left center;
   line-height: 2;
   padding: 0 0 0 30px;
-  margin: 0 0 15px;
+  margin: 0 0 5px;
 }
 .wiget-top li:nth-child(odd) {
   background-image: url(../img/bg/ico-skype-in.png);

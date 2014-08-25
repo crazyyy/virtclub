@@ -1,4 +1,6 @@
+# -*- encoding : utf-8 -*-
 require 'compass/import-once/activate'
+encoding = "utf-8"
 
 # Require any additional compass plugins here.
 
