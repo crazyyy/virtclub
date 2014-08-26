@@ -1,7 +1,6 @@
-@charset "UTF-8";
 /* Theme Name:   WP Easy
  * Theme URI:    https://github.com/crazyyy/wp-easy
- * Description:  ╨Я╤А╨╕╨▓╨╡╤В╤Б╤В╨▓╤Г╤О. <br />╨в╨╡╨╝╨░ ╤Б╨╛╨╖╨┤╨░╨╜╨░ ╨┤╨╗╤П ╤Г╨┤╨╛╨▒╨╜╨╛╨╣ ╨╕╨╜╤В╨╡╨│╤А╨░╤Ж╨╕╨╕ ╤И╨░╨▒╨╗╨╛╨╜╨╛╨▓ ╨▓ WordPress, ╨┐╨╛╨┤╨┤╨╡╤А╨╢╨╕╨▓╨░╨╡╤В ╨▓╤Б╨╡ ╤Б╨╛╨▓╤А╨╡╨╝╨╡╨╜╤Л╨╜╨╡ ╤Д╨╕╤И╨║╨╕, ╨╝╨╕╨╜╨╕╨╝╨╕╨╖╨╕╤А╨╛╨▓╨░╨╜╨╜╨░╤П.<br />╨Х╤Б╨╗╨╕ ╨▓╨░╨╝ ╨╜╤Г╨╢╨╜╨░ ╨╕╨╜╤В╨╡╨│╤А╨░╤Ж╨╕╤П ╨▓╨░╤И╨╡╨│╨╛ ╤И╨░╨▒╨╗╨╛╨╜╨░ ╨╜╨░ WP, ╨▓╨╡╤А╤Б╤В╨║╨░ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤Б╤В╨╕ ╨┐╤А╨░╨▓╨║╨╕ - ╨╛╨▒╤А╨░╤Й╨░╨╣╤В╨╡╤Б╤М ╨▓ ╨┐╨╛╨┤╨┤╨╡╤А╨╢╨║╤Г - http://saitobaza.ru/, icq 633-308-800 
+ * Description:  http://saitobaza.ru/, icq 633-308-800 
  * Version:    14-02-12
  * Author:     crazyyy and others
  * Author URI:   http://saitobaza.ru/
@@ -32,7 +31,7 @@ body {
 
 a {
   outline: none;
-  color: blue;
+  color: #555555;
   text-decoration: underline;
 }
 a:hover {
@@ -219,11 +218,74 @@ nav ul li {
   background-color: #fff6f0;
 }
 
+.home-title,
+.cat-title,
+.inner-title {
+  font-size: 16px;
+  color: #555555;
+  text-align: center;
+  font-weight: normal;
+}
+.home-title a,
+.cat-title a,
+.inner-title a {
+  text-decoration: none;
+  color: #555555;
+}
+
+.inner-title {
+  text-align: left;
+}
+
+body.category a.feature-img {
+  width: 100%;
+  overflow: hidden;
+}
+body.category a.feature-img img {
+  width: 100%;
+}
+body.category article {
+  padding: 0 0 20px;
+  margin: 0 0 20px;
+  border-bottom: 2px solid #555555;
+}
+
 section {
   width: 710px;
   float: left;
   padding: 30px 0;
   margin: 0 10px;
+}
+
+.slider-container {
+  width: 640px;
+  height: 255px;
+  margin: 0 auto;
+}
+.slider-container .rsGCaption {
+  display: none;
+}
+.slider-container .rsContent {
+  position: relative;
+}
+.slider-container .rsContent .inslide {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 540px;
+  padding: 20px 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.slider-container .rsContent .inslide p {
+  font-size: 16px;
+  padding-left: 30px;
+  background-image: url(../img/bg/ico-skype-a.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin: 0;
+}
+.slider-container .rsContent .inslide p a {
+  color: #fff;
 }
 
 .model-looper {
@@ -262,6 +324,9 @@ section {
 .model-looper:hover img {
   border-color: #000;
 }
+.model-looper:hover span {
+  color: red;
+}
 
 aside {
   width: 230px;
@@ -289,6 +354,34 @@ aside {
 }
 .wiget-top li:nth-child(odd) {
   background-image: url(../img/bg/ico-skype-in.png);
+}
+
+.cat-models article {
+  display: inline-block;
+  width: 345px;
+  margin: 0 5px 20px !important;
+  float: left;
+}
+.cat-models article .inner-title {
+  margin: 0 0 10px;
+}
+.cat-models article .view-article {
+  display: none;
+}
+.cat-models article .feature-img {
+  display: block;
+  float: left;
+  width: 150px !important;
+  height: 150px;
+  border: 4px solid #c5c0bd;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 10px 10px 0;
+}
+.cat-models article .feature-img img {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /* Footer */

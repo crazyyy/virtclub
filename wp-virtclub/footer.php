@@ -1,28 +1,24 @@
-			<!-- footer -->
-			<footer class="footer" role="contentinfo">
-				
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date("Y"); ?> Собственность <?php bloginfo('name'); ?>. <?php _e('Powered by', 'wpeasy'); ?> 
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//saitobaza.ru" title="WP Easy - быстрая тема для WordPress">WP Easy</a>.
-				</p>
-				<!-- /copyright -->
-				
-			</footer>
-			<!-- /footer -->
-		
-		</div>
-		<!-- /wrapper -->
 
-		<?php wp_footer(); ?>
-		
-		<!-- analytics -->
-		<script>
-			var _gaq=[['_setAccount','UA-XXXXXXXX-XX'],['_trackPageview']];
-			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-			s.parentNode.insertBefore(g,s)})(document,'script');
-		</script>
-	
-	</body>
+</div><!--content clearfix-->
+</div><!-- #wrapper -->
+
+<footer class="wrapper">
+<div class="mainfooter">
+	<p class="copy" role="contentinfo">Виртуальный секс, как много манящего, эротичного и волнующего... Бездушное порно давно перестало быть столь популярным, мужчин потянуло на что-то новенькое, захотелось, чтоб девушка из порно ожила, заговорила с ним, выполняла его просьбы - наступило время скайп секса.<br/>
+        Последние год-два секс по скайпу набрал бешенную популярность, привлекая все больше разнообразных девушек, готовых оказать услуги. Мы собрали всех этих красоток в одном месте. </p>
+
+    <p class="bottom-copy">virtclub.com - является передовым сайтом по вирт скайп сексу, локомотив, который привлекает большое количество зрителей и очень популярен у топовых моделей скайпа. virtclub.com - самый посещаемый на данный момент сайт по скайп сексу и поиску виртуальной партнерши для секса. Мы рады приветствовать вас на лучшем сайте, здесь именно то, что вы искали. Добро пожаловать в рай виртуального секса, стань частичкой этой необузданной стихии страсти.</p>
+
+    <p class="siteinfo">© Copyright 2014 — VirtClub.com. <br/>  Все права защищены.</p>
+
+    <div class="counters clearfix">
+        <span><img src="<?php echo get_template_directory_uri(); ?>/img/counter.jpg" alt=""></span><span><img src="<?php echo get_template_directory_uri(); ?>/img/counter.jpg" alt=""></span>
+    </div>
+</div><!-- mainfooter -->
+</footer>
+
+<div class="backhead bkblock0n">
+</div><!-- backhead bkblock0n -->
+    <?php wp_footer(); ?>
+</body>
 </html>

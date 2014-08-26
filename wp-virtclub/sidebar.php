@@ -5,8 +5,22 @@
 		<?php dynamic_sidebar( 'widgetarea1' ); ?>
 	<?php else : ?>
  
-		<!-- If you want display static widget content - write code here
-		RU: Здесь код вывода того, что необходимо для статического контента виджетов -->
+    <div class="widget wiget-top">
+        <h6>Топ модели в сети:</h6>
+        <ul>
+            <li>LisaKisa</li>
+            <li>Валерия</li>
+            <li>Алена</li>
+            <li>Мия</li>
+            <li>Stella</li>
+            <li>Настя</li>
+            <li>Лера</li>
+            <li>Мия</li>
+            <li>Stella</li>
+            <li>Настя</li>
+            <li>Лера</li>
+        </ul>
+    </div><!-- wiget-top -->
  
 	<?php endif; ?>
 </aside>
