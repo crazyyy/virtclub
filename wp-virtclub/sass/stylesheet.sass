@@ -67,9 +67,9 @@ textarea
 header
   position: relative
   height: 430px
-  background-image: url(../img/bg/header.jpg)
+/*  background-image: url(../img/bg/header.jpg)
   background-repeat: no-repeat
-  background-position: center top
+  background-position: center top */
 .logo 
   width: 315px
   height: 72px
@@ -125,7 +125,10 @@ header
 .bkblock0n
   position: absolute
   top: 0
-  height: 165px
+  height: 720px
+  background-image: url(../img/bg/bkblock0n.jpg)
+  background-repeat: no-repeat
+  background-position: center
 /* Top Menu */
 
 .headernav
@@ -170,6 +173,11 @@ header
     a:hover
       color: #000
       text-decoration: underline
+  .current-menu-item
+    a
+      color: #000
+      text-decoration: underline
+
 /* INTERMEDIATE: IE Fixes */
 
 nav ul li
@@ -195,6 +203,23 @@ nav ul li
     color: #555555
 .inner-title
   text-align: left
+.single-title 
+  font-size: 20px
+  padding-left: 50px
+  img
+    margin-right: 10px
+  .status_ver
+  .skype_img
+    width: 20px
+    height: 20px
+article
+  img
+    max-width: 100%
+  .single-thumb
+    position: relative
+    float: left
+    width: 250px
+    margin: 0 20px 20px 0
 body.category
   a.feature-img
     width: 100%
@@ -202,9 +227,14 @@ body.category
     img
       width: 100%
   article
-    padding: 0 0 20px
-    margin: 0 0 20px
+    padding: 0 0 5px
+    margin: 0 0 5px
     border-bottom: 2px solid #555555
+    height: 200px
+    overflow: hidden
+    h2
+      height: 22px
+      overflow: hidden
 section 
   width: 710px
   float: left
@@ -236,6 +266,7 @@ section
           color: #fff
 .model-looper
   width: 142px
+  height: 180px
   display: inline-block
   float: left
   text-align: center
@@ -247,8 +278,9 @@ section
     font-size: 16px
     font-weight: normal
     text-decoration: none
-    margin-bottom: 10px
-    margin-left: 20px
+    margin: 0 0 10px 20px
+    height: 22px
+    overflow: hidden
   img
     width: 100px
     height: 100px
@@ -307,16 +339,20 @@ aside
       img
         width: 100% !important
         height: 100% !important
-
+        position: relative
+.pagination 
+  text-align: center
+  span, a
+    margin: 0 5px
 /* Footer */
 footer
   position: relative
-  margin: -295px auto 0
+  margin: -290px auto 0
   width: 100%
-  height: 295px
+  height: 290px
   background-image: url(../img/bg/footer.png)
   background-repeat: no-repeat
-  background-position: center
+  background-position: center bottom
 
   .copy
     color: #fff
@@ -336,6 +372,9 @@ footer
   width: 980px
   position: relative
   height: 100%
+  background-image: url(../img/bg/inarrow.png)
+  background-repeat: repeat-x
+  background-position: top
   
   .counters
     height: 33px

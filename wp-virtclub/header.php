@@ -13,6 +13,7 @@
 
     <!-- icons -->
     <link href="<?php echo get_template_directory_uri(); ?>/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/comments.css">
 
     <!-- css + javascript -->
     <?php wp_head(); ?>

@@ -13,7 +13,7 @@
 
     <h1 class="home-title">Топ модели:</h1>
 
-	<?php query_posts("showposts=20&cat=1"); ?>
+	<?php query_posts("showposts=20&cat=75"); ?>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<article class="model-looper">
 		<a href="<?php the_permalink(); ?>">
