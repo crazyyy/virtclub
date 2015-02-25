@@ -1,0 +1,1349 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"nth-child(  (pseudo-class)"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"ff",
+				"ff:ss	font-family:sans-serif"
+			],
+			[
+				"firs",
+				"first-child"
+			],
+			[
+				"trs",
+				"trs	transition: ${1:prop} ${2:time};"
+			],
+			[
+				"imp",
+				"@import	@import url(${0});"
+			],
+			[
+				"li",
+				"lighten(color, 10%)"
+			],
+			[
+				"article-",
+				"article-title"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"list-style-",
+				"list-style-position"
+			],
+			[
+				"liststyle",
+				"list-style-type"
+			],
+			[
+				"box-z",
+				"-moz-box-sizing:   (property)"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fff",
+				"F0F0F0"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"op:ms	-ms-filter:opacity"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"lis",
+				"list	list-style-type"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "var2/app/css/main.scss",
+			"settings":
+			{
+				"buffer_size": 4905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "var2/app/index.html",
+			"settings":
+			{
+				"buffer_size": 5770,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"sass",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tor",
+				"TortoiseSVN: Commit"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"wo",
+				"WordPress: Open Config File"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"snip de",
+				"Snippet: desktop  laptop"
+			],
+			[
+				"sni mo",
+				"Snippet: smartphone"
+			],
+			[
+				"snipe",
+				"Snippet: :focus"
+			],
+			[
+				"snip",
+				"Snippet: ipad"
+			],
+			[
+				"clea",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ty",
+				"Tidy HTML"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"live",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"qi",
+				"Git: Quick Commit"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gut",
+				"Git: Quick Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"subl",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"colo",
+				"BracketHighlighter: Toggle Global Enable"
+			]
+		],
+		"width": 522.0
+	},
+	"console":
+	{
+		"height": 199.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/html2wp-easy/README.md",
+		"/D/html2wp-easy/builds/development/index.html",
+		"/D/html2wp-easy/builds/development/css/stylesheet.scss",
+		"/D/Dyandex/work/verstka/virtclub/var2/gulpfile.js",
+		"/D/Dyandex/work/verstka/virtclub/var2/package.json",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/bootstrap/gulpfile.js",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/bootstrap/app/styles/temp.scss",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/bootstrap/app/styles/main.scss",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/bootstrap/app/index.html",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/bootstrap/app/404.html",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/html/style.css",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/html/index.html",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/html/scss/stylesheet.scss",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/package.json",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/gulpfile.js",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/html/sass/stylesheet.sass",
+		"/D/Dyandex/work/ria/verstka/rock-hotel.org/html/scss/stylesheet.sass",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/sass/screen.sass",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/sass/admin.sass",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Gulp/Gulp.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Modific/README.md",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/footer.php",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/functions.php",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/sass/comments.sass",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/css/comments.css",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/content-single-models.php",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/single-models.php",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/sftp-config.json",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/config.rb",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/style.css",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/css/style.css",
+		"/D/Dyandex/work/verstka/virtclub/wp-virtclub/sass/style.sass",
+		"/D/Dyandex/work/verstka/virtclub/html/index.html",
+		"/D/Dyandex/work/verstka/virtclub/html/css/style.css",
+		"/D/Dyandex/work/verstka/virtclub/html/sass/style.sass",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/SFTP.sublime-settings",
+		"/D/Dyandex/work/verstka/virtclub/html/config.rb",
+		"/D/Dyandex/work/verstka/virtclub/html/stylesheets/style.css",
+		"/D/Dyandex/work/verstka/virtclub/html/style.css",
+		"/D/Dyandex/work/verstka/virtclub/.sassbuilder-config.json",
+		"/D/Dyandex/work/verstka/virtclub/html/test.sass",
+		"/D/Dyandex/work/verstka/virtclub/html/style.sass",
+		"/D/Dyandex/work/verstka/virtclub/html/_tmp/style.css",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SublimeLinter/README.md",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/LiveReload/LiveReload.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/style.css",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/page-contact.php",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/sftp-config.json",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/page-services.php",
+		"/D/Dyandex/work/verstka_arch/kaupmehetolkeburoo.ee/wp-kaupmehetolkeburoo/page-services-subpage.php",
+		"/D/Dyandex/work/verstka/keeltekoolinterl.eu-rip-verstka/wp-keeltekoolinterl/style.css",
+		"/D/Dyandex/work/verstka/keeltekoolinterl.eu-rip-verstka/wp-keeltekoolinterl/sidebar-calendar.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-equipment.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-aboutus.php",
+		"/D/Dyandex/work/verstka/ria-test/html/sftp-config.json",
+		"/D/Dyandex/work/verstka/ria-test/html/css/main.css",
+		"/D/Dyandex/work/verstka/ria-test/html/index.html",
+		"/C/Windows/Temp/Rar$DRa0.993/autocomplete.dat",
+		"/C/Windows/Temp/Rar$DRa0.637/autocomplete.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-actions.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-response.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-about-water.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-productions.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/templates-delivery-price.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/header.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/js/scripts.js",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/index_o.php",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/js/tabulous.js",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/wp-nayada/sftp-config.json",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/js/scripts.js",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/js/scroll.js",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/index.html",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/style.css",
+		"/D/Dyandex/work/verstka/nayada-work-html-wp-land/html/sftp-config.json",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/TortoiseSVN/Default (Windows).sublime-keymap",
+		"/D/Dropbox/Soft/SublimeText2/Data/Packages/TortoiseSVN/TortoiseSVN.sublime-settings",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/register.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/page.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/about.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/loop.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/sidebar-calendar.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/footer.php",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/style.css",
+		"/D/Dropbox/Work/Verstka/multilingua.ee/wp-keeltekoolinterl/sftp-config.json",
+		"/C/OpenServer/domains/less.me/css/style.less",
+		"/D/Dropbox/Work/Verstka/markup-process-gh-pages/psd/design.psd",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/sftp-config.json",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services-subpage2.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services-subpage.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-contact.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-home.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/frontpage-header.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-services.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page-about.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/footer.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/page.php",
+		"/C/OpenServer/domains/kaupmehetolkeburoo.me/wp-content/themes/wp-kaupmehetolkeburoo/js/sitepress.js",
+		"/D/Dropbox/Work/Verstka/tancportal/bck/old-site/wp-content/themes/wp-tancportal/sftp-config.json",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/home.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/footer.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/category.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/js/scripts.js",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/page.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/sftp-config.json",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/sidebar.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/header.php",
+		"/C/OpenServer/domains/tancportal.me/wp-content/themes/wp-tancportal/functions.php",
+		"/D/Dropbox/Work/Verstka/sitel.com/html/layout.css",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/tabs/description.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/product-thumbnails.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/single-product/product-image.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce/content-single-product.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/single.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/woocommerce.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/css/admin.css",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/search.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/index_o.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/index.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/404.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/loop.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/category.php",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/js/scripts.js",
+		"/C/OpenServer/domains/robotown.ru/wp-content/themes/wp-robotown/page-home.php"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header",
+			"container",
+			"header",
+			"content",
+			"marketing",
+			".content",
+			"content",
+			"marketing",
+			"jumbotron",
+			"center",
+			"+",
+			"tra",
+			"(",
+			"+",
+			"single-thumb",
+			".single-title",
+			"img",
+			"22",
+			".single-title img",
+			"single-title",
+			".single-thumb",
+			"body.category",
+			"body.category article",
+			"295",
+			"single-thumb",
+			"article",
+			"category",
+			"article",
+			".cat-title",
+			"slide",
+			"src=\"img",
+			"asid",
+			"135",
+			"3b3b",
+			"color",
+			"transition",
+			"trans",
+			"imgmodel",
+			"*",
+			".widget_text",
+			"menu",
+			".contact-bar textarea",
+			", .contact-bar textarea",
+			".widget_tex",
+			".widget_text",
+			".widget_text, .advanced_text",
+			"widg",
+			"font-fa",
+			"emodal",
+			"eModal-1",
+			"logo-block",
+			".productions li h4",
+			".response .button-transwhite",
+			".button-orange",
+			"orange",
+			"href=\"\"",
+			".headernav",
+			".about-water h3",
+			"135",
+			".aboutus ul.avards li a img.aboutus ul.avards li a img",
+			" li",
+			"60",
+			"980",
+			".contact-bar .item input[type=\"text\"], .contact-bar .item input[type=\"email\"], .contact-bar .wpcf7-form-control-wrap input[type=\"text\"], .contact-bar .wpcf7-form-control-wrap input[type=\"email\"]",
+			"font-f",
+			"kalender-nimekiri",
+			".kalender-nimekiri",
+			"#kliendid-meist .quote",
+			"widge",
+			"%3C?php%20echo%20get_template_directory_uri();%20?%3E/",
+			"ctaArea",
+			"back",
+			"langSelect2",
+			"src=\"img",
+			"src",
+			"nav",
+			".breadcrumbs_top .breadcrumbs > span",
+			".breadcrumbs_top .breadcrumbs > span\\",
+			".breadcrumbs_top .breadcrumbs > span",
+			"home",
+			"wpeHeadNav",
+			".services-list",
+			".wpcf7-form-control-wrap.file-554",
+			".contact-bar .wpcf7-form-control-wrap",
+			"Montserrat",
+			"font-family: 'Montserrat', Verdana, sans-serif;",
+			"Montserrat",
+			"a:hover",
+			".cta .half",
+			"langua",
+			"#lang_sel_list a, #lang_sel_list a:visited",
+			"language",
+			"url",
+			"href=[^>]*",
+			"href=\"http://browsehappy.com/\"",
+			".mainfooter:after",
+			"sideba",
+			"header-slider",
+			"loope",
+			"home-text",
+			"logo",
+			"135",
+			"logo",
+			"980",
+			"style",
+			"url",
+			"../font/icomoon",
+			"url",
+			"../images",
+			"./index_files",
+			"src",
+			".home-text h4, .article-text .article-title",
+			".home-text h1",
+			"article-border",
+			"home-text",
+			"article",
+			"ar",
+			"article",
+			"searc",
+			"header",
+			"src=\"img",
+			"search",
+			"@",
+			"src=\"img",
+			"top-sales",
+			"carousell-sales-inner",
+			"carousell .carousell-sales-inner",
+			"carousell-sales-inner"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"content",
+			"290",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"295",
+			"img/model",
+			"//",
+			"href=\"#\"",
+			"68",
+			" .tab-header li",
+			"72",
+			"<?php echo get_template_directory_uri(); ?>/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"font-family: 'PT Sans', sans-serif;",
+			"href=\"#\"",
+			"100",
+			"950",
+			"fonts",
+			"img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"phpshop/templates/saitobaza/img",
+			"carousell-inner",
+			"carousell-item",
+			"120",
+			"1200",
+			"rgba(253, 238, 186, 0.25)",
+			"#FDEEBA",
+			"</a>",
+			"<a href=\"\">\\1<aasa>",
+			"<a href=\"\">/1<a\\/>",
+			").png",
+			")png",
+			"png\" ",
+			"timthumb",
+			" ",
+			"h3",
+			"../img/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"img",
+			"img/",
+			"font-family: 'Open Sans', sans-serif;",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/photos",
+			"current-menu-item",
+			"",
+			"img",
+			"70",
+			"1000",
+			"<li>",
+			"showposts=12",
+			"page-template-page-jobs-php",
+			"http://mihas86.myjino.ru/wp-content/themes/wp-onetoone/img/",
+			"http://mihas86.myjino.ru/",
+			"140",
+			"1000",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img/",
+			"url('../img",
+			"url('img/",
+			"href=\"#\"",
+			"src=\"img",
+			"img",
+			"relative",
+			"  behavior: url(http://demo.saitobaza.ru/wp-content/themes/wp-clickprime/PIE/PIE.htc);",
+			"section",
+			"/PIE.htc",
+			"http://demo.saitobaza.ru/wp-content/themes/wp-clickprime/PIE.htc",
+			".section-main",
+			"400",
+			"515",
+			"115",
+			"175",
+			"href=\"#\"",
+			"320",
+			"<span class=\"article-info\"><span class=\"date\">10:26  23.02.2014</span>  Интервью  Богдан Тимин</span>",
+			"<h2><a href=\"\">Что случилось с Михаилом Рокфеллером</a></h2>",
+			"180",
+			"1000",
+			"253",
+			"MyriadProBoldCondensed",
+			"1000",
+			"",
+			"wpeasy",
+			"c"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "var2/app/css/main.scss",
+					"settings":
+					{
+						"buffer_size": 4905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3054,
+								3054
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1930.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "var2/app/index.html",
+					"settings":
+					{
+						"buffer_size": 5770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1456,
+								1456
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 858.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.git":
+	{
+		"height": 183.0
+	},
+	"output.sftp":
+	{
+		"height": 149.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 172.0
+	},
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Dyandex/work/ria/verstka/rock-hotel.org/rock-hotel.org.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}
